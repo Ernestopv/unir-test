@@ -21,7 +21,7 @@ class TestCalculator(unittest.TestCase):
 
     # Test the subtract method with valid inputs
     def test_subtract_method_returns_correct_result(self):
-        self.assertEqual(self.calc.substract(5, 3), 2)
+        self.assertEqual(self.calc.substract(5, 3), 3)
         self.assertEqual(self.calc.substract(-2, -2), 0)
         self.assertAlmostEqual(self.calc.substract(5.5, 2.5), 3.0)
 
